@@ -28,10 +28,10 @@
     # Optional parameters with default values:
     graph: true
     #arch: [] # By default: sim x86_64, ios arm64
-    config: Dev # By default Debug
+    config: Debug # By default Debug
     sdk: [sim, ios] # Build sdks: sim/ios or both. (default: sim)
     bitcode: false # Add bitcode for archive builds.
-    #keepSources: false
+    keepSources: true
     #exclude: []
     #include: [] #  Include local pods.
     #focus: []
@@ -48,7 +48,7 @@
   - command: cache
     graph: true
     #arch: [] # By default: sim x86_64, ios arm64
-    config: Staging
+    config: Debug
     sdk: [sim, ios] # Build sdks: sim/ios or both. (default: sim)
     bitcode: false # Add bitcode for archive builds.
     useRelativePaths: true
