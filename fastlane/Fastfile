@@ -1,0 +1,53 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+app_target = "Rugby-Demo"
+app_xcodeproj = "Rugby-Demo.xcodeproj"
+
+XCODE_WORKSPACE = "Rugby-Demo.xcworkspace"
+
+platform :ios do
+  desc 'Build app without archive ipa'
+  desc 'Parameters'
+  lane :build_app do |options|
+
+    scheme = "Rugby-Demo"
+    build_configuration = "Debug"
+
+    # build archive and export IPA
+    build_app(
+      scheme: scheme,
+      workspace: XCODE_WORKSPACE,
+      configuration: build_configuration, 
+      silent: true,
+      clean: false,
+      suppress_xcode_output: false,
+      include_bitcode: false,
+      export_method: "development",
+      skip_profile_detection: true,
+      skip_package_ipa: true,
+      skip_codesigning: true,
+      skip_archive: true,
+      export_options: {
+        uploadBitcode: false,
+        uploadSymbols: false,
+        compileBitcode: false,
+      }
+    )
+  end
+end
+
+

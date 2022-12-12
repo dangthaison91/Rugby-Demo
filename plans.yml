@@ -1,0 +1,106 @@
+# You can find more information here:
+# https://github.com/swiftyfinch/Rugby/blob/main/Docs/Plans.md
+
+# The first plan in the file always run by default
+- Dev:
+  - command: plans
+    name: setup
+  - command: plans
+    name: cache-dev
+
+- Staging:
+  - command: plans
+    name: setup
+  - command: plans
+    name: cache-staging
+
+- Production:
+  - command: plans
+    name: setup
+  - command: plans
+    name: cache-production
+    
+# Reusable plans
+
+- cache-dev:
+  # 🏈 The first Rugby command without arguments like: $ rugby cache
+  - command: cache
+    # Optional parameters with default values:
+    graph: true
+    #arch: [] # By default: sim x86_64, ios arm64
+    config: Dev # By default Debug
+    sdk: [sim, ios] # Build sdks: sim/ios or both. (default: sim)
+    bitcode: false # Add bitcode for archive builds.
+    #keepSources: false
+    #exclude: []
+    #include: [] #  Include local pods.
+    #focus: []
+    #hideMetrics: false
+    ignoreChecksums: false # Ignore already cached pods checksums.
+    useRelativePaths: false
+    offDebugSymbols: true # Build without debug symbols.
+    verbose: true
+    nonInteractive: true
+    useContentChecksums: true # Use content checksums instead of modification date.
+    quiet: false
+
+- cache-staging:
+  - command: cache
+    graph: true
+    #arch: [] # By default: sim x86_64, ios arm64
+    config: Staging
+    sdk: [sim, ios] # Build sdks: sim/ios or both. (default: sim)
+    bitcode: false # Add bitcode for archive builds.
+    useRelativePaths: true
+    offDebugSymbols: true # Build without debug symbols.
+    verbose: true
+    nonInteractive: true
+    useContentChecksums: true # Use content checksums instead of modification date.
+    quiet: true
+  
+- cache-production:
+  - command: cache
+    graph: true
+    #arch: [] # By default: sim x86_64, ios arm64
+    config: Pro 
+    sdk: [ios] # Build sdks: sim/ios or both. (default: sim)
+    bitcode: false # Add bitcode for archive builds.
+    useRelativePaths: true
+    offDebugSymbols: true # Build without debug symbols.
+    verbose: true
+    nonInteractive: true
+    useContentChecksums: true # Use content checksums instead of modification date.
+    quiet: true
+
+
+  # 🔍 The second command: $ rugby focus "Pods-Main"
+  # - command: focus
+  #   targets:
+  #     - Pods-TestProject # It's the main target in RugbyTesting project
+  #   project: "Pods/Pods.xcodeproj"
+  #   testFlight: false
+  #   keepSources: false
+  #   hideMetrics: false
+  #   verbose: true
+  #   quiet: false
+
+  # 🗑 And so on: $ rugby drop -i "TestProject" -p TestProject/TestProject.xcodeproj
+  # - command: drop
+  #   targets: [^TestProject$] # Alternative array syntax
+  #   invert: true
+  #   project: TestProject/TestProject.xcodeproj
+  #   quiet: true
+
+
+# Base plan which you can use in other plans
+- setup:
+#   # 🐚 Optionally you can generate project if you use Xcodegen or something like that
+#   #- command: shell
+#   #  run: xcodegen
+#   #  verbose: false
+
+#   # 🐚 Also, you can install pods before each rugby call right here
+  - command: shell
+    run: bundle exec pod check || bundle exec pod install
+    verbose: true
+    quiet: false

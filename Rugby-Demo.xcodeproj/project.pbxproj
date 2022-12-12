@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E6CFE1758FD07B72C2BF3F8 /* Pods_Rugby_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1B950FAE25C475F22F1C33 /* Pods_Rugby_DemoTests.framework */; };
+		50C62164B5394C138E1C3D8E /* Pods_Rugby_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AF4B780B8286EA1A28222F /* Pods_Rugby_Demo.framework */; };
 		57A44C0A2947D4AC002D300E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A44C092947D4AC002D300E /* AppDelegate.swift */; };
 		57A44C0C2947D4AC002D300E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A44C0B2947D4AC002D300E /* SceneDelegate.swift */; };
 		57A44C0E2947D4AC002D300E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A44C0D2947D4AC002D300E /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		57A44C212947D4AE002D300E /* Rugby_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A44C202947D4AE002D300E /* Rugby_DemoTests.swift */; };
 		57A44C2B2947D4AE002D300E /* Rugby_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A44C2A2947D4AE002D300E /* Rugby_DemoUITests.swift */; };
 		57A44C2D2947D4AE002D300E /* Rugby_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A44C2C2947D4AE002D300E /* Rugby_DemoUITestsLaunchTests.swift */; };
+		57A44C3A2947DA59002D300E /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A44C392947DA59002D300E /* Firebase.swift */; };
+		8F1CAA556D9F85CD5C024442 /* Pods_Rugby_Demo_Rugby_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73F3396D806D803991452C0 /* Pods_Rugby_Demo_Rugby_DemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		541C3C8FA25D4978C5A8DA57 /* Pods-Rugby-Demo-Rugby-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rugby-Demo-Rugby-DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Rugby-Demo-Rugby-DemoUITests/Pods-Rugby-Demo-Rugby-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		57A44C062947D4AC002D300E /* Rugby-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rugby-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A44C092947D4AC002D300E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57A44C0B2947D4AC002D300E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		57A44C262947D4AE002D300E /* Rugby-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rugby-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A44C2A2947D4AE002D300E /* Rugby_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_DemoUITests.swift; sourceTree = "<group>"; };
 		57A44C2C2947D4AE002D300E /* Rugby_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57A44C392947DA59002D300E /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		5C12E718DBB434225427495A /* Pods-Rugby-Demo-Rugby-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rugby-Demo-Rugby-DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Rugby-Demo-Rugby-DemoUITests/Pods-Rugby-Demo-Rugby-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		614D141C8418A27F78DDEC04 /* Pods-Rugby-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rugby-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Rugby-Demo/Pods-Rugby-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		74AF4B780B8286EA1A28222F /* Pods_Rugby_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rugby_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8D5F3F385F047DC43B32E0 /* Pods-Rugby-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rugby-DemoTests.release.xcconfig"; path = "Target Support Files/Pods-Rugby-DemoTests/Pods-Rugby-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB4A6A450933006F04FBDC1B /* Pods-Rugby-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rugby-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-Rugby-DemoTests/Pods-Rugby-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E73F3396D806D803991452C0 /* Pods_Rugby_Demo_Rugby_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rugby_Demo_Rugby_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92A266ADB7E324C609305BD /* Pods-Rugby-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rugby-Demo.release.xcconfig"; path = "Target Support Files/Pods-Rugby-Demo/Pods-Rugby-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		EE1B950FAE25C475F22F1C33 /* Pods_Rugby_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rugby_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C62164B5394C138E1C3D8E /* Pods_Rugby_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E6CFE1758FD07B72C2BF3F8 /* Pods_Rugby_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1CAA556D9F85CD5C024442 /* Pods_Rugby_Demo_Rugby_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12D2A8DDDD5904C9556857BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				614D141C8418A27F78DDEC04 /* Pods-Rugby-Demo.debug.xcconfig */,
+				E92A266ADB7E324C609305BD /* Pods-Rugby-Demo.release.xcconfig */,
+				5C12E718DBB434225427495A /* Pods-Rugby-Demo-Rugby-DemoUITests.debug.xcconfig */,
+				541C3C8FA25D4978C5A8DA57 /* Pods-Rugby-Demo-Rugby-DemoUITests.release.xcconfig */,
+				DB4A6A450933006F04FBDC1B /* Pods-Rugby-DemoTests.debug.xcconfig */,
+				CD8D5F3F385F047DC43B32E0 /* Pods-Rugby-DemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		57A44BFD2947D4AC002D300E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				57A44C1F2947D4AE002D300E /* Rugby-DemoTests */,
 				57A44C292947D4AE002D300E /* Rugby-DemoUITests */,
 				57A44C072947D4AC002D300E /* Products */,
+				12D2A8DDDD5904C9556857BB /* Pods */,
+				7E543C20CC04A751A4177E8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +138,7 @@
 				57A44C122947D4AE002D300E /* Assets.xcassets */,
 				57A44C142947D4AE002D300E /* LaunchScreen.storyboard */,
 				57A44C172947D4AE002D300E /* Info.plist */,
+				57A44C392947DA59002D300E /* Firebase.swift */,
 			);
 			path = "Rugby-Demo";
 			sourceTree = "<group>";
@@ -127,6 +160,16 @@
 			path = "Rugby-DemoUITests";
 			sourceTree = "<group>";
 		};
+		7E543C20CC04A751A4177E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74AF4B780B8286EA1A28222F /* Pods_Rugby_Demo.framework */,
+				E73F3396D806D803991452C0 /* Pods_Rugby_Demo_Rugby_DemoUITests.framework */,
+				EE1B950FAE25C475F22F1C33 /* Pods_Rugby_DemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57A44C302947D4AE002D300E /* Build configuration list for PBXNativeTarget "Rugby-Demo" */;
 			buildPhases = (
+				EB7DEC24F00F2875061A7DAB /* [CP] Check Pods Manifest.lock */,
 				57A44C022947D4AC002D300E /* Sources */,
 				57A44C032947D4AC002D300E /* Frameworks */,
 				57A44C042947D4AC002D300E /* Resources */,
+				1C037AC9FA277914B7D50D6C /* [CP] Embed Pods Frameworks */,
+				692A3A55238E58445FD5EFE9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57A44C332947D4AE002D300E /* Build configuration list for PBXNativeTarget "Rugby-DemoTests" */;
 			buildPhases = (
+				BD1458CE06FBBE1907D2BCEA /* [CP] Check Pods Manifest.lock */,
 				57A44C182947D4AE002D300E /* Sources */,
 				57A44C192947D4AE002D300E /* Frameworks */,
 				57A44C1A2947D4AE002D300E /* Resources */,
@@ -169,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57A44C362947D4AE002D300E /* Build configuration list for PBXNativeTarget "Rugby-DemoUITests" */;
 			buildPhases = (
+				144A96E0D63206215E114C9C /* [CP] Check Pods Manifest.lock */,
 				57A44C222947D4AE002D300E /* Sources */,
 				57A44C232947D4AE002D300E /* Frameworks */,
 				57A44C242947D4AE002D300E /* Resources */,
+				F0C0D6A20CB1451539CBFA70 /* [CP] Embed Pods Frameworks */,
+				44301C681137D167079BA72A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +303,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		144A96E0D63206215E114C9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rugby-Demo-Rugby-DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C037AC9FA277914B7D50D6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo/Pods-Rugby-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo/Pods-Rugby-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo/Pods-Rugby-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44301C681137D167079BA72A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo-Rugby-DemoUITests/Pods-Rugby-Demo-Rugby-DemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo-Rugby-DemoUITests/Pods-Rugby-Demo-Rugby-DemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo-Rugby-DemoUITests/Pods-Rugby-Demo-Rugby-DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692A3A55238E58445FD5EFE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo/Pods-Rugby-Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo/Pods-Rugby-Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo/Pods-Rugby-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1458CE06FBBE1907D2BCEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rugby-DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7DEC24F00F2875061A7DAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rugby-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C0D6A20CB1451539CBFA70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo-Rugby-DemoUITests/Pods-Rugby-Demo-Rugby-DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo-Rugby-DemoUITests/Pods-Rugby-Demo-Rugby-DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rugby-Demo-Rugby-DemoUITests/Pods-Rugby-Demo-Rugby-DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57A44C022947D4AC002D300E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +447,7 @@
 			files = (
 				57A44C0E2947D4AC002D300E /* ViewController.swift in Sources */,
 				57A44C0A2947D4AC002D300E /* AppDelegate.swift in Sources */,
+				57A44C3A2947DA59002D300E /* Firebase.swift in Sources */,
 				57A44C0C2947D4AC002D300E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,18 +620,22 @@
 		};
 		57A44C312947D4AE002D300E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614D141C8418A27F78DDEC04 /* Pods-Rugby-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MRS6F96DBN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Rugby-Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,26 +643,34 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sondt.Rugby-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		57A44C322947D4AE002D300E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92A266ADB7E324C609305BD /* Pods-Rugby-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MRS6F96DBN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Rugby-Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,14 +678,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sondt.Rugby-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		57A44C342947D4AE002D300E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4A6A450933006F04FBDC1B /* Pods-Rugby-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,15 +701,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sondt.Rugby-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rugby-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rugby-Demo";
 			};
 			name = Debug;
 		};
 		57A44C352947D4AE002D300E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8D5F3F385F047DC43B32E0 /* Pods-Rugby-DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,15 +724,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sondt.Rugby-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rugby-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rugby-Demo";
 			};
 			name = Release;
 		};
 		57A44C372947D4AE002D300E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C12E718DBB434225427495A /* Pods-Rugby-Demo-Rugby-DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,15 +745,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sondt.Rugby-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = "Rugby-Demo";
 			};
 			name = Debug;
 		};
 		57A44C382947D4AE002D300E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541C3C8FA25D4978C5A8DA57 /* Pods-Rugby-Demo-Rugby-DemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,9 +766,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sondt.Rugby-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = "Rugby-Demo";
 			};
 			name = Release;
